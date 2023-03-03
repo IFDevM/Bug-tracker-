@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');
+html{
+  font-size: 62.5%;
+}
+
+*{
+ box-sizing: border-box;
+}
+h1,h2,h3,ul,ol,p{
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+input, button{
+  font-size: inherit;
+  border: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #222;
+}
+body{
+  font: 1.6rem sans-serif;
+  margin: 0;
+  background-color: #7aacef;
+}
+
+.container{
+  position: relative;
+  max-width: 80rem;
+  margin: 0 auto;
+  background-color: #f0f6fb;
+  color: black;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+header h1 {
+  line-height: 6rem;
+  text-align: center;
+}
+
+
+header h1 span {
+color: #ffffff;
+}
+
+section .logo{
+align-items: center;
+justify-content: center;
+
+}
+
+/* formulaire */
+.tab-body {
+  max-width: 80rem;
+  margin: 5rem auto 1rem;
+  background-color: #fff;
+  padding: 1rem;
+}
+.tab-body form *{
+  display: block;
+  width: 100%;
+}
+.tab-body form input, :is(button, label){
+  line-height: 3.5rem;
+  margin-bottom: .5rem;
+}
+.tab-body form button{
+  width: 20rem;
+}
+.tab-body form input{
+  border: solid .1rem #ccc;
+  padding: .5rem;
+}
+[placeholder]{
+  font-style: italic;
+}
+

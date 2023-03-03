@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Bug tracker</title>
+</head>
+
+<body>
+  <header>
+    <h1>
+      BUG <span>TRACKER </span>
+    </h1>
+  </header>
+  <main>
+
+  <section class="container">
+    <h2 class="logo">
+     <img src="./images/logo.png" alt="BUG TRACKER" width="50">
+    </h2>
+  </section>
+
+    <div class="tab-body" role= "region" aria-labelledby="connexionBox">
+      <form action="" id="connexionBox" method="post">
+        <div class="row"><!--supprimer-->
+          <i class="fa-duotone fa-user"></i>
+          <label for="nom">nom d'utilisateur</label>
+          <input type="text"  id="nom"  class="input" placeholder="saisissez votre nom d'utilisateur" autofocus>
+        </div>
+        <div class="row">
+          <label for="passeword">mot de passe</label>
+          <input type="text"  id="passeword"  class="input" placeholder="saisissez votre mot de passe">
+        </div>
+        <button class="btn" type="button">ENTRER</button>
+        <a href="#" class="link"> Mot de passe oublié ?</a>
+      </form>
+    </div>
+
+    <div class="tab-body" role="region" aria-labelledby="inscriptionBox">
+      <form>
+        <div class="row">
+          <i class="fa-thin fa-user"></i>
+          <label for="Nom">Nom d'utilisateur </label>
+          <input type="text" id="nom" placeholder="saisissez votre nom d'utilisateur" autofocus>
+        </div>
+        <div class="row">
+          <label for="Motdepasse">Mot de passe</label>
+          <input type="text" id="Motdepasse"  placeholder="saisissez votre mot de passe">
+        </div>
+        <div class="row">
+          <label for="Motdepasse">Retapez le mot de passe </label>
+          <input type="text" id="Motdepasse" placeholder="veuillez retapez votre mot de passe">
+        </div>
+        <button class="btn" type="button" value=inscrire>S'INSCRIRE</button>
+        <a href="#" target="_blank">Se connecter</a>
+      </form>
+    </div>
+
+   
+
+</main>
+</body>
+
+</html>
