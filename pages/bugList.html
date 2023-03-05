@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/bugList.css">
+  <title>Bug tracker</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="nav">
+      <ul>
+        <li> <img src="../asset/logo.png" alt="bug tracker"></li>
+        <li>
+          <h1>BUG <span>TRACKER</span></h1>
+        </li>
+      </ul>
+      <nav class="navBar">
+        <a href="../pages/bugList.html">Liste complète</a>
+        <a href="../pages/todo.html">Bugs à traiter</a>
+        <a href="../index.html">Se déconnecter</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <figure class="bugicon">
+      <span class="bloc"><img src="../asset/bug.svg" alt="bug tracker">
+        <p>8 bugs</p>
+      </span>
+      <span class="bloc"><img src="../asset/progress.svg" alt="bug tracker">
+        <p>5 en cours</p>
+      </span>
+      <span class="bloc"><img src="../asset/check-mark.svg" alt="bug tracker">
+        <p>1 traité</p>
+      </span>
+    </figure>
+
+    <div class="bugAdd">
+    <img src="../asset/add-circle.svg" alt="bug tracker"/> <a href="../pages/addbug.html">Ajouter un bug</a></p>
+    </div>
+   
+    <table id="bugListed">
+      <thead class="table_thead">
+        <tr>
+
+          <td>Date</td>
+          <td>Tracker Désignation</td>
+          <td>Assigné à</td>
+          <td>État</td>
+          <td>Actions</td>
+        </tr>
+      </thead>
+      <tbody class="table_body">
+        <tr>
+          <td>27/02/2023</td>
+          <td>Titre du bug</td>
+    
+          <td>Maria T.</td>
+          <td>
+            <select name="state">
+              <option value="0">Non traité</option>
+              <option value="1">En cours</option>
+              <option value="2">Traité</option>
+            </select>
+          </td>
+          <td>
+            <button class="btn" id="logBtn" type="submit">supprimer</button>
+          </td>
+        </tr>
+      </tbody>
+
+    </table>
+
+
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="./js/complte-list.js"></script>
+
+</body>
+
+</html>

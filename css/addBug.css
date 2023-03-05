@@ -1,0 +1,125 @@
+
+/* Navigation */
+
+header{
+  background-color: #6CADDE;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+header h1 span {
+  color: #ffffff;
+  }
+  
+header ul{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+header img{
+  display: block;
+  width: 4rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+
+}
+
+
+.navBar{
+  display: flex;
+  position: absolute;
+  right: 8rem;
+  gap: 3rem;
+  font-size: 1.9rem;
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.navBar a:hover {
+  border-bottom: .5rem solid #ffffff; 
+}
+
+/* Formulaire */
+
+.containerForm{
+  max-width: 45rem;
+  margin: 5rem auto 1rem;
+  background-color: #f2f5f7;
+  padding: 5rem;
+  border-radius: 3rem;
+  position: relative;
+}
+
+.containerForm form *{
+  width: 100%;
+}
+
+.containerForm form input, :is(button, label){
+  line-height: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.containerForm form h2{
+text-align: center;
+padding: 2rem;
+color: #6CADDE;
+font-weight: bold;
+font-size: 3rem;
+}
+
+.containerForm form input{
+  border: solid .1rem #5596e4;
+  padding: .5rem;
+}
+
+.containerForm form label{
+  color: #000000 ;
+}
+
+
+[placeholder]{
+  font-style: italic;
+  color: #6CADDE;
+}
+
+.formAdd input:focus,.formAdd textarea:focus{
+  border: 2px solid #36A1F1;
+}
+
+.btn-form .btn{
+ font-size: 1.8rem;
+ border-radius: 2.5rem;
+ max-width: 12rem;
+ background-color: #376282;
+ color: #ffffff;
+ font-family: 'Quicksand', sans-serif;
+}
+
+.btn-form{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 2rem;
+  margin: 0 auto;
+}
+
+
